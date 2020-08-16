@@ -40,3 +40,18 @@ for va in range(21,30):
     sq=va*2
     squs.append(sq)
 print(squs)
+hao=[]
+for h in range(100,200):
+    hao.append(h*2)
+print(hao)
+print(min(hao)+max(hao))
+print(sum(hao))
+jia=[j**2 for j in range(1,11)]
+print(jia)
+bin=[b*10/2 for b in range(1,11)]
+print(bin)
+for x in range(1,21):
+    print(x)
+ys=list(range(1,1000001))
+print(ys)
+print(sum(ys))
