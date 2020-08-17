@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # coding=UTF-8
 import time
-ticks = time.time()
+ticks = jichu.time()
 print ticks
-localtime=time.localtime(ticks)
+localtime= time.localtime(ticks)
 print localtime
-m=time.asctime(localtime)
+m= time.asctime(localtime)
 print m
-print time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
-print time.strftime("%a %b %d %H:%M:%S",time.localtime())
+print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+print time.strftime("%a %b %d %H:%M:%S", time.localtime())
 import calendar
 cal=calendar.month(2020,8)
 print cal
